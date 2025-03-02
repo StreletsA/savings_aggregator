@@ -1,77 +1,29 @@
-##############################
-## Java
-##############################
-.mtj.tmp/
-*.class
-*.jar
-*.war
-*.ear
-*.nar
-hs_err_pid*
-replay_pid*
+# If you prefer the allow list template instead of the deny list, see community template:
+# https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
+#
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
 
-##############################
-## Maven
-##############################
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-pom.xml.bak
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
-.mvn/timing.properties
-.mvn/wrapper/maven-wrapper.jar
+# Test binary, built with `go test -c`
+*.test
 
-##############################
-## Gradle
-##############################
-bin/
-build/
-.gradle
-.gradletasknamecache
-gradle-app.setting
-!gradle-wrapper.jar
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
 
-##############################
-## IntelliJ
-##############################
-out/
-.idea/
-.idea_modules/
-*.iml
-*.ipr
-*.iws
+# Dependency directories (remove the comment below to include it)
+# vendor/
 
-##############################
-## Eclipse
-##############################
-.settings/
-bin/
-tmp/
-.metadata
-.classpath
-.project
-*.tmp
-*.bak
-*.swp
-*~.nib
-local.properties
-.loadpath
-.factorypath
+# Go workspace file
+go.work
+go.work.sum
 
-##############################
-## NetBeans
-##############################
-nbproject/private/
-build/
-nbbuild/
-dist/
-nbdist/
-nbactions.xml
-nb-configuration.xml
+# env file
+.env
+*.env_local
 
 ##############################
 ## Visual Studio Code
@@ -88,5 +40,3 @@ nb-configuration.xml
 ## Miscellaneous
 ##############################
 *.log
-
-*.env_local

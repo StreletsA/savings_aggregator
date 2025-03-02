@@ -1,0 +1,7 @@
+APIToken: <T-Investments-Token>
+EndPoint: invest-public-api.tinkoff.ru:443
+AppName: savings-aggregator
+DisableResourceExhaustedRetry: false
+DisableAllRetry: false
+MaxRetries: 3
+ESP32URL: http://192.168.0.50:80/data
